@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sange version 1 - js, arrays og forEach</title>
+
+</head>
+
+<body>
+    <H1>Helt simpelt</H1>
+    <div>
+        <ul id="sangliste">
+            <!-- her kommer li'erne med sangtitler -->
+        </ul>
+    </div>
+
+    <script>
+        const sangliste = document.querySelector("#sangliste");
+        const sangtitler = ["cant buy me love", "mere regn"]
+
+        sangtitler.forEach(titel => {
+            sangliste.innerHTML += ` <li>${titel}</li>`;
+
+        });
+
+    </script>
+</body>
+
+</html>

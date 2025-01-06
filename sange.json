@@ -1,0 +1,28 @@
+{
+  "sange": [
+    {
+      "id": 1,
+      "titel": "Cant buy me love",
+      "komponist": "Beatles",
+      "tempo": 120,
+      "tekster": "Bla bla"
+    },
+    {
+      "id": 2,
+      "titel": "mer regn",
+      "komponist": "Hund i snor",
+      "tempo": 110,
+      "tekster": "bal bla bla"
+    }
+  ],
+  "noget_andet": [
+    {
+      "Overskrigt": "noget",
+      "Overskrifrt 2": "noget tredje"
+    },
+    {
+      "Overskrigt": "noget andet",
+      "Overskrifrt 2": "noget fjerde"
+    }
+  ]
+}
