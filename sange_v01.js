@@ -1,16 +1,10 @@
-console.log("loaded yes");
+console.log("script loaded2...");
 
 const sangliste = document.querySelector("#sangliste");
 const sangtitler = ["cant buy me love", "mere regn"];
 
-//let alleSange = ""; // det er vigtig at sætte variablen lig en tom streng, da min variabel ellers ender med at starte med undefined
+let alleSangeSamlet = sangtitler.map((titel) => `<li>${titel}</li>`).join("");
 
-let alleSangeSamlet = sangtitler
-  .map((titel) => {
-    return ` <li>${titel}</li>`;
-  })
-  .join();
-
-console.log("sangene er: ", alleSangeSamlet);
+console.log("her er sangene:", alleSangeSamlet);
 
 sangliste.innerHTML = alleSangeSamlet;
