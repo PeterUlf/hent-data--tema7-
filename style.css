@@ -1,0 +1,8 @@
+.hurtig {
+  visibility: hidden;
+  color: red;
+}
+
+.synlig {
+  visibility: visible;
+}

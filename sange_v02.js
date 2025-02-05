@@ -19,6 +19,7 @@ function visSange(data) {
 <h3>${sang.titel}</h3>
 <p>Komponist: ${sang.komponist}</p>
 <p>Tempo: ${sang.tempo}</p>
+<p class="hurtig ${sang.tempo > 115 && "synlig"}">Hurtig sang</p>
 </article>`
   );
   console.log("arrayMedSange:", arrayMedSange);
